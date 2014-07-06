@@ -96,7 +96,7 @@ static unsigned short get_display_hour(unsigned short hour) {
 static void update_display(struct tm *current_time) {
   // TODO: Only update changed values?
 
-  set_container_image(&day_name_image, day_name_layer, DAY_NAME_IMAGE_RESOURCE_IDS[current_time->tm_wday], GPoint(69, 61));
+  set_container_image(&day_name_image, day_name_layer, DAY_NAME_IMAGE_RESOURCE_IDS[current_time->tm_wday], GPoint(10, 61));//69,61
 
   // TODO: Remove leading zero?
   set_container_image(&date_digits_images[0], date_digits_layers[0], DATENUM_IMAGE_RESOURCE_IDS[current_time->tm_mday/10], GPoint(108, 61));
