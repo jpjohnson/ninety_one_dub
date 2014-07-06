@@ -3,7 +3,7 @@
     "capabilities": [
         ""
     ],
-    "companyName": "Pebble Technology & orviwan",
+    "companyName": "JJ's Apps",
     "longName": "91 Dub",
     "resources": {
         "media": [
@@ -171,8 +171,8 @@
     },
     "shortName": "91 Dub",
     "uuid": "7112d624-6555-4279-89ae-c086e9369427",
-    "versionCode": 3,
-    "versionLabel": "3.0",
+    "versionCode": 1,
+    "versionLabel": "1.0",
     "watchapp": {
         "watchface": true
     }
